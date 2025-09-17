@@ -8,4 +8,6 @@ image:
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
+<a href="/blog">Back to blog</a>
+
 Its surprisingly confusing with the "greater than" and "lesser than" symbols.

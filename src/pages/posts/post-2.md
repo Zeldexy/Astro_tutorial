@@ -8,4 +8,6 @@ image:
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
+<a href="/blog">Back to blog</a>
+
 After learning some Astro, I decided to try to import small components from memory.

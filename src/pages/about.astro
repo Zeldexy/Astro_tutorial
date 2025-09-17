@@ -13,11 +13,28 @@ const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 const happy = true;
 const finished = false;
 const goal = 3;
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
 ---
+
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/blog">Blog</a>
 	
+<style define:vars={{skillColor, fontWeight, textCase}}>
+    h1 {
+        color: purple;
+        font-size: 4rem;
+    }
+    .skill{
+        color: var(--skillColor);
+        font-weight: var(--fontWeight);
+        text-transform: var(--Textcase);
+    }
+</style>
+
 <BaseLayout>
 <h1>Astro - TEST</h1>
 <p>This is all a test of how text looks in the Astro Site</p>	
@@ -35,12 +52,14 @@ const goal = 3;
 </ul>
 <p>My skills are:</p>
 <ul>
-    {skills.map((skill)=><li>{skill}</li>)}
+    {skills.map((skill)=><li class="skill">{skill}</li>)}
 </ul>
 
 {happy && <p>I am happy (which is a lie)</p>}
 {finished && <p>I finished the tutorial</p>}
 {goal && <p>My goal is to create AGI</p>}
+
+
 
 
 

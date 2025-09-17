@@ -11,14 +11,12 @@ tags: ["astro", "blogging", "learning in public"]
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/blog">Blog</a>
-<a href="/posts/post-1">Post 1</a>
 
 # My First Blog Post
 
 Published on: 2022-07-01
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
-
 
 ## What I've accomplished
 
@@ -31,3 +29,6 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 ## What's next
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+
+
+![](https://docs.astro.build/assets/rose.webp)

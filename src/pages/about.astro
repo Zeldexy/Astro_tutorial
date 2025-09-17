@@ -1,23 +1,18 @@
 ---
-
+const pageTitle = "About me V2";
+import BaseLayout from "./layouts/BaseLayout.astro";
 ---
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/blog">Blog</a>
+	
+<BaseLayout title="{pageTitle}"
+	<h1>Astro - TEST</h1>
+    <h2>{pageTitle}</h2>
+    <p>This is all a test of how text looks in the Astro Site</p>
+		
+	<p> How come?</p>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro - TEST</h1>
-        <h2>About me</h2>
-        <p>This is all a test of how text looks in the Astro Site</p>
-        <p> How come?</p>
-        <p>To test line spacing </p>
-	</body>
-</html>
+    <p>To test line spacing </p>
+
+</baseLayout>
